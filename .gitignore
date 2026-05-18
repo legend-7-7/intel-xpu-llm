@@ -1,0 +1,29 @@
+# Python 虚拟环境，不上传
+.venv/
+venv/
+env/
+
+# Python 缓存文件，不上传
+__pycache__/
+*.pyc
+
+# PyCharm 配置，不上传
+.idea/
+
+# 本地向量数据库，可能很大，不上传
+data/vector_db/
+
+# 本地大模型目录，不上传
+models/
+
+# 模型权重文件，不上传
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# 密钥、环境变量文件，不上传
+.env
+
+# 系统临时文件，不上传
+.DS_Store
